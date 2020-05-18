@@ -27,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App-header">
+        <h1>Send Messages to Firebase</h1>
         <input
           type="text"
           onChange={this.handleText}
